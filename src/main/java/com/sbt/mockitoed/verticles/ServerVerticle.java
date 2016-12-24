@@ -24,7 +24,7 @@ public class ServerVerticle extends AbstractVerticle{
 
         // Entry point to the application, this will render a custom JADE template.
 
-        router.route().path("/index").handler(StaticHandler.create());
+        router.route().path("/").handler(StaticHandler.create());
 
         router.get("/th").handler(ctx -> {
             // we define a hardcoded title for our application

@@ -1,0 +1,13 @@
+body {
+  font: 16px/1 sans-serif;
+}
+#root {
+  height: 100%;
+}
+
+.header__block{
+  background-color: bisque;
+}
+.footer__block{
+  background-color: beige;
+}
