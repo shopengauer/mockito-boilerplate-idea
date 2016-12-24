@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class HomeController {
 
-    @RequestMapping(value = "/index",method = RequestMethod.GET)
+    @RequestMapping(value = "/th",method = RequestMethod.GET)
     public String index(Model model){
         model.addAttribute("key","Hello, Mockito");
         return "index";
